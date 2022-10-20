@@ -1,0 +1,207 @@
+@media(max-width:480px){
+    .header .navbar{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .header-content input{
+        width: 18rem;
+    }
+
+    .header-content p{
+        font-size: 0.8rem;
+    }
+
+    .navbar ul{
+        margin-top: 1.5rem;
+    }
+
+    .container{
+        overflow: auto;    
+    }
+
+    .header img{
+        margin: auto;
+    }
+
+    .header .button-group{
+        margin: auto;
+    }
+
+    .header .button-group .btn{
+        padding: 10px;
+        margin-top: 1rem;
+    }
+
+    .header-content .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .header-content{
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .header-content h1{
+        font-size: 1.8rem;
+    }
+
+    .header-content .left{
+        margin-top: 0;
+    }
+
+    .header-content .sponsor img{
+        margin-top: 3rem;
+        height: 1.5rem;
+    }
+
+    .header-content-image{
+        display: none;
+    }
+
+    .navbar button{
+        display: none;
+    }
+
+    .features .grid-4{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .features{
+        margin-top: 0;
+        padding-top: 0;
+        padding: 0;
+        padding-bottom: 2rem;
+    }
+
+    .features h3{
+        font-size: 1.3rem;
+    }
+
+    .feature-card{
+        margin-top: 2rem;
+    }
+
+    .feature-card img{
+        height: 3.5rem;
+    }
+
+    .cards{
+        padding: 0rem 3rem;
+    }
+
+    .booster{
+        padding-top: 0;
+        background: #F6F8FB;
+        margin-top: 2rem;
+    }
+
+    .booster .container{
+        padding:0 2rem;
+    }
+
+    .booster .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        text-align: center;
+        margin-top: -5rem;
+    }
+
+    .booster-content{
+        margin: 0;
+    }
+
+    .booster .left{
+        display: none;
+    }
+
+    .booster h1{
+        font-size: 1.6rem;
+    }
+
+    .booster p{
+        font-size: 0.8rem;
+    }
+
+    .booster li{
+        font-size: 0.8rem;
+        text-align: left;
+    }
+
+    .booster img{
+        display: none;
+    }
+
+    .video-mac{
+        margin-top: 1rem;
+        padding: 0 1.8rem;
+    }
+
+    .video-mac h1{
+        font-size: 1.5rem;
+    }
+
+    .video-mac img{
+        height: 12rem;
+        width: 20rem;
+    }
+
+    .tutorials h3{
+        font-size: 1.5rem;
+    }
+
+    .tutorials{
+        height: 1200px;
+    }
+
+    .grid-3{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        margin: 0 1rem;
+    }
+
+    .hire{
+        position: relative;
+        bottom: 0;
+        top: 10px
+    }
+
+    .tutorials .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .tutorials .grid button{
+        margin: auto;
+    }
+
+    .tutorials .grid h1{
+        text-align: center;
+    }
+
+    .footer{
+        margin-top: 19rem;
+    }
+
+    .footer .grid{
+        grid-template-columns: 1fr;
+    }
+
+    .footer .grid ul{
+        display: none;
+    }
+
+    .footer .right{
+        display: flex;
+        flex-direction: column;
+    }
+}

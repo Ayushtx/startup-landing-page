@@ -1,0 +1,38 @@
+.container{
+    max-width: 1150px;
+    margin: auto;
+    padding: 1rem 0rem;
+}
+
+.btn{
+    padding: 15px 30px;
+}
+
+.btn-outline{
+    border: 2px solid #8d4488;
+    background: none;
+    border-radius: 6px;
+    color: #8d4488;
+}
+
+.btn-outline:hover{
+    background: #8d4488;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
